@@ -22,6 +22,7 @@ program brownian
     ! Set up our random number generator
     call srand(seed)
 
+    ! Enter our number.
     print*, 'Enter a number n:'
     read*, n
 
